@@ -1,0 +1,124 @@
+.img-wrapper, text-wrapper {
+  display: inline-block;
+}
+.projects .card {
+  background-color: white;
+}
+.card {
+  border: none;
+}
+.col {
+  padding: 0.25rem;
+}
+.image {
+  height: 240px;
+  width: calc(100vw - 8px);
+  max-width: 100%;
+  opacity: 1;
+  transition:  opacity 0.5s;
+}
+
+.projects:hover .image{
+  opacity: 0.2;
+}
+
+#college {
+  background: url('./images/college.png') center center/cover;
+  background-color: white;
+}
+
+
+#covid {
+  background: url('./images/covid.png') center center/cover;
+}
+
+#calculator {
+  background: url('./images/calculator.png') center center/cover;
+}
+#pomodoro {
+  background: url('./images/pomodoro.png') center center/cover;
+}
+#product {
+  background: url('./images/newEarth.png') center center/cover;
+}
+#documentation {
+  background: url('./images/CSS_documentation.png') center center/cover;
+}
+#markdown {
+  background: url('./images/markdown.png') center center/cover;
+}
+#minecraft {
+  background: url('./images/minecraftSurvey.png') center center/cover;
+}
+#drum {
+  background: url('./images/drumMachine.png') center center/cover;
+}
+
+
+.text, .btn {
+  margin: 0 auto;
+  position: absolute; 
+  left: 0;
+  opacity: 0;
+  text-align: center;
+  transition: all, 0.3s, ease-in-out;
+  z-index: 2;
+}
+
+.text {
+  width: 100%;
+  top: 0;
+  color: black;
+}
+
+.projects:hover .text{
+  opacity: 1;
+  top: 24%;
+}
+
+.btn {
+  width: 170px;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-primary {
+  background-color: #535051;
+  background-image: linear-gradient(#535051,#a19e9f);
+  border-color: #535051;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px -2px #333;
+  text-shadow: 0px -1px #333;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+	width: 100%;
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.projects:hover .btn {
+  opacity: 1;
+  bottom: 24%;
+}
+
+.btn:hover {
+  background-color: black;
+  background-image: linear-gradient(black,#726e6f);
+  border-color: black;
+  color: white;
+}
+
+@media (min-width: 576px) { 
+  .image {
+    height: 270px;
+  }
+  
+ }
+
+ #portfolio {
+   justify-content: center;
+ }

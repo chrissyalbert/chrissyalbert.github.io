@@ -1,0 +1,17 @@
+.row {
+  justify-content: center;
+}
+h1 {
+  color: white;
+}
+.contact a {
+  color: white;
+}
+.contact .img-fluid {
+  max-width: 25%;
+}
+@media (max-width: 768px) {
+  .contact .img-fluid {
+    max-width: 50%;
+  }
+}
