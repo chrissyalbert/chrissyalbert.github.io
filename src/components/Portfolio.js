@@ -7,7 +7,6 @@ import Button from 'react-bootstrap/Button';
 import './Porfolio.css';
 
 export default function Portfolio(props) {
-  
   return (
     <Container >
       <Row id="portfolio">
