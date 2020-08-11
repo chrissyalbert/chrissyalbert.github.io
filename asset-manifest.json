@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6905ff36.chunk.css",
+    "main.js": "/static/js/main.9b932a49.chunk.js",
+    "main.js.map": "/static/js/main.9b932a49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.218c7605.chunk.js": "/static/js/2.218c7605.chunk.js",
+    "static/js/2.218c7605.chunk.js.map": "/static/js/2.218c7605.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e1de8e36c05298d899951c18664e05ec.js": "/precache-manifest.e1de8e36c05298d899951c18664e05ec.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.6905ff36.chunk.css.map": "/static/css/main.6905ff36.chunk.css.map",
+    "static/js/2.218c7605.chunk.js.LICENSE.txt": "/static/js/2.218c7605.chunk.js.LICENSE.txt",
+    "static/media/Albert-Chrissy-7089-square.jpg": "/static/media/Albert-Chrissy-7089-square.17d8d607.jpg",
+    "static/media/Porfolio.css": "/static/media/pomodoro.8818913e.png",
+    "static/media/App.css": "/static/media/black triangles.8d2daafd.png",
+    "static/media/github-logo.svg": "/static/media/github-logo.76d344f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.218c7605.chunk.js",
+    "static/css/main.6905ff36.chunk.css",
+    "static/js/main.9b932a49.chunk.js"
+  ]
+}
